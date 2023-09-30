@@ -1,6 +1,6 @@
 ### LilHomie - Housing Price Prediction Rapid Prototype
 
-### Author: [(EJ) Vivek Pandey](https://viveckh.com)
+### Author: 
 
 LilHomie is a rapid prototyping project that aims to generate housing appraisals to determine values of properties in the New York Tri-state Area. 
 
