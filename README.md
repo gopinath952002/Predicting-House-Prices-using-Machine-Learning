@@ -1,18 +1,37 @@
-###- Housing Price Prediction Rapid Prototype
+###- House Price Prediction using Machine Learning
+This project aims to predict house prices based on various features using machine learning techniques. The model is designed to assist real estate agents, property buyers, and sellers in making informed decisions.
 
+Dataset Source
+The dataset used for this project is sourced from [https://www.kaggle.com/datasets/vedavyasv/usa-housing]. It contains various features related to houses, such as size, location, number of bedrooms, number of bathrooms, amenities, neighborhood details, and other relevant information. Additional data, such as market trends, interest rates, and economic indicators, may also be included to enhance the model's predictive power.
 
-LilHomie is a rapid prototyping project that aims to generate housing appraisals to determine values of properties in the New York Tri-state Area. 
+Dependencies
+Python 3.x
+Jupyter Notebook
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+Installation
+pip install pandas numpy scikit-learn matplotlib seaborn
+Use the package manager pip to install the required dependencies.
 
-This repository contains all the associated work that has been done for the area which includes:
-* Web Crawler to gather housing data
-* Notebooks associated with data engineering, EDA, and ML Modeling
-* Serverless API setup to make predictions off the serialized models
-* Web App
+bash
+Copy code
+pip install pandas numpy scikit-learn matplotlib seaborn
+Usage
+To run the code, follow these steps:
 
-### Future Enhancements
-* Adding support to crawl and extract through remaining 3 property page formats in Trulia
-* Spiders in Web Crawler to extract data from Zillow
-* Speeding up the crawler with distributed spiders
-* Feeding the ML model with data of properties across the US and making necessary adjustments based on new results, instead of the tri-states properties it is limited to (but this requires the above three enhancements to be done first)
+Clone the repository to your local machine.
+Navigate to the project directory.
+Open the Jupyter Notebook file House_Price_Prediction.ipynb.
+Run the cells sequentially to see the data preprocessing, model training, and evaluation steps.
+Experiment with different parameters and models to optimize the results.
+Project Structure
+The project structure is organized as follows:
+
+data/: Contains the dataset used for training and testing the model.
+House_Price_Prediction.ipynb: Jupyter Notebook file containing the code for data preprocessing, model training, and evaluation.
+README.md: Instructions and information about the project.
 
 
